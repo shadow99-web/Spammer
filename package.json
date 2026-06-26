@@ -1,0 +1,11 @@
+{
+  "name": "discord-spammer",
+  "version": "1.0.0",
+  "description": "Discord Spammer for Hugging Face",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.4.0",
+    "fs-extra": "^11.1.0",
+    "chalk": "^4.1.2"
+  }
+}
