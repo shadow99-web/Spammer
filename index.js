@@ -17,7 +17,7 @@ http.createServer((req, res) => {
 // ===== DELAYS FIJOS (ÓPTIMOS) =====
 const RETRY_DELAY = 15000; // 15s para reintentos (fijo)
 const ACCOUNT_START_DELAY = 3000; // 3s entre cuentas (fijo)
-const COOLDOWN_PERIOD = 5 * 60 * 1000; // 5 minutos en milisegundos
+const COOLDOWN_PERIOD = 15 * 60 * 1000; // 5 minutos en milisegundos
 
 // Variables globales para controlar el estado
 let isGlobalCooldown = false;
